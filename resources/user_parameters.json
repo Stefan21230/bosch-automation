@@ -1,0 +1,7 @@
+{
+  "user_stefan": [{
+    "username": "test",
+    "password": "pass",
+	"wrong_password": "pass1"}
+  ]
+}

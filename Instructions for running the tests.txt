@@ -1,0 +1,17 @@
+Instructions for running the tests:
+
+1. Make sure that android studio, appium and appium server are installed properly.
+
+2. Open cmd and install everything from requirements.txt in C:\bosch-automation\venv
+with command pip install -r requirements.txt
+
+3. Connect device or start emulator and edit desire capabilities according that in the
+conftest.py file in the project.
+
+4. Install .apk on the device or emulator.
+
+5. Start appium server
+
+6. Make sure that pytest is default test runner in pycharm
+
+7. Right click on the test_login_and_find_station.py in tests package and run it.
