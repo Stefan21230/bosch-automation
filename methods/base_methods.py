@@ -132,6 +132,7 @@ class BaseMethods:
         ds_y = int(ds_splitted[1]) / 2
 
         while True:
+            self.swipe_to_down(viewport_value, ds_x, ds_y)
             element = self.swipe_to_right(viewport_value, element_found, ds_x, ds_y,
                                           map_element_height, map_element_width)
             if element:
@@ -159,7 +160,7 @@ class BaseMethods:
 
     def swipe_to_down(self, viewport_value, ds_x, ds_y, stop_swiping=True):
         while True:
-            subprocess.getoutput("adb shell input touchscreen swipe {} {} {} {}".format(ds_x, ds_y + 300, ds_x, ds_y))  # swipe to down
+            subprocess.getoutput("adb shell input touchscreen swipe {} {} {} {}".format(ds_x, ds_y + 600, ds_x, ds_y))  # swipe to down
             viewport_coordinates = self.get_visible_element_text(viewport_value)
             viewport_down_splitted = viewport_coordinates.split(',')[3]
             viewport_down_axis = int(viewport_down_splitted.replace(')', ''))
