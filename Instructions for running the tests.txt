@@ -2,7 +2,7 @@ Instructions for running the tests:
 
 1. Make sure that android studio, appium and appium server are installed properly.
 
-2. Open cmd and install everything from requirements.txt in C:\bosch-automation\venv
+2. Open cmd and install everything from requirements.txt in C:\bosch-automation\venv\Scripts
 with command pip install -r requirements.txt
 
 3. Connect device or start emulator and edit desire capabilities according that in the
