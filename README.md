@@ -11,9 +11,8 @@ The scenario is:
 This was a really challenging because it required calculating the position of the map within the application based on screen coordinates. Additionally, it was necessary to create an algorithm that would use touch to navigate to the calculated coordinates and search for a station on the map. If the map was not found, the algorithm had to swipe to the right and continue searching for the station until it was found.
 
 The project was developed using:
-
-**Python 3.9** programming language,
-**Appium** and **Pytest** frameworks.
+- **Python 3.9** programming language,
+- **Appium** and **Pytest** frameworks.
 
 Instructions for running the tests:
 
