@@ -13,7 +13,7 @@ This was a really challenging because it required calculating the position of th
 The project was developed using:
 
 **Python 3.9** programming language,
-**Selenium** and **Pytest** frameworks.
+**Appium** and **Pytest** frameworks.
 
 Instructions for running the tests:
 
