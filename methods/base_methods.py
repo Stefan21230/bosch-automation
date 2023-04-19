@@ -1,10 +1,7 @@
-import random
-
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.touch_action import TouchAction
 import subprocess
-from selenium.webdriver.remote.errorhandler import InvalidSelectorException
 
 
 class BaseMethods:
