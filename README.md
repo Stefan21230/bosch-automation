@@ -1,5 +1,5 @@
 # bosch-automation
-This project was created as part of the interview process for the Rober Bosch company.
+This project was created as part of the interview process for the Robert Bosch company.
 
 The task of this project was to automate the most common scenario in the demo version of their mobile android application
 which is used for finding charging stations for electric vehicles.
